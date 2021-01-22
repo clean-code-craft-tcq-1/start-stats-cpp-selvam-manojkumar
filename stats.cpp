@@ -2,5 +2,6 @@
 
 Stats Statistics::ComputeStatistics(const std::vector<___>& ) {
     //Implement statistics here
-    return 0;
+    Stats temp={NaN, NaN, NaN};
+    return temp;
 }
