@@ -13,7 +13,7 @@ Stats Statistics::ComputeStatistics(const std::vector<float>&input ) {
     temp.min = input[0];
     temp.max = input[0];
     prev = input[0];
-    for(n:input)
+    for(auto n:input)
     {
         if(n>prev)
         {
