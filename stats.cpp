@@ -26,7 +26,7 @@ Stats Statistics::ComputeStatistics(const std::vector<float>&input ) {
         sum += n;
         prev = n;
     }
-    temp.average = sum/input.size;
+    temp.average = sum/input.size();
     
     return temp;
 }
